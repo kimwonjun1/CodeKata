@@ -15,5 +15,9 @@ public class Main {
         Age age = new Age();
         int birthYear = age.solution(24);
         System.out.println("birthYear = " + birthYear);
+
+        Comparison comparison = new Comparison();
+        int comAnswer = comparison.solution(5, 5);
+        System.out.println("comAnswer = " + comAnswer);
     }
 }
