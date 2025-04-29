@@ -11,5 +11,9 @@ public class Main {
         Divide divide = new Divide();
         int divAnswer = divide.solution(4, 4);
         System.out.println("divAnswer = " + divAnswer);
+
+        Age age = new Age();
+        int birthYear = age.solution(24);
+        System.out.println("birthYear = " + birthYear);
     }
 }
