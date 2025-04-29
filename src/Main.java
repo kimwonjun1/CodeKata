@@ -19,5 +19,10 @@ public class Main {
         Comparison comparison = new Comparison();
         int comAnswer = comparison.solution(5, 5);
         System.out.println("comAnswer = " + comAnswer);
+
+        Addtion addtion = new Addtion();
+        int addAnswer = addtion.solution(7, 3);
+        System.out.println("addAnswer = " + addAnswer);
+
     }
 }
