@@ -7,5 +7,9 @@ public class Main {
         Multiply multiply = new Multiply();
         int mulAnswer = multiply.solution(3, 3);
         System.out.println("mulAnswer = " + mulAnswer);
+
+        Divide divide = new Divide();
+        int divAnswer = divide.solution(4, 4);
+        System.out.println("divAnswer = " + divAnswer);
     }
 }
