@@ -8,7 +8,7 @@ public class Main {
         int mulAnswer = multiply.solution(3, 3);
         System.out.println("mulAnswer = " + mulAnswer);
 
-        Divide divide = new Divide();
+        Division divide = new Division();
         int divAnswer = divide.solution(4, 4);
         System.out.println("divAnswer = " + divAnswer);
 
@@ -23,6 +23,10 @@ public class Main {
         Addtion addtion = new Addtion();
         int addAnswer = addtion.solution(7, 3);
         System.out.println("addAnswer = " + addAnswer);
+
+        Division1000 division1000 = new Division1000();
+        int div1000Answer = division1000.solution(7, 3);
+        System.out.println("div1000Answer = " + div1000Answer);
 
     }
 }
