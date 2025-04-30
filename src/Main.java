@@ -28,5 +28,9 @@ public class Main {
         int div1000Answer = division1000.solution(7, 3);
         System.out.println("div1000Answer = " + div1000Answer);
 
+        Protractor protractor = new Protractor();
+        int angle = protractor.solution(70);
+        System.out.println("angle = " + angle);
+
     }
 }
