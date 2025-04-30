@@ -32,5 +32,8 @@ public class Main {
         int angle = protractor.solution(70);
         System.out.println("angle = " + angle);
 
+        EvenNumSum evenNumSum = new EvenNumSum();
+        int evenSum = evenNumSum.solution(10);
+        System.out.println("evenSum = " + evenSum);
     }
 }
