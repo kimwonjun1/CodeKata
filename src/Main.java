@@ -35,5 +35,10 @@ public class Main {
         EvenNumSum evenNumSum = new EvenNumSum();
         int evenSum = evenNumSum.solution(10);
         System.out.println("evenSum = " + evenSum);
+
+        ArrAverage arrAverage = new ArrAverage();
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        double arrAvg = arrAverage.solution(numbers);
+        System.out.println("arrAvg = " + arrAvg);
     }
 }
