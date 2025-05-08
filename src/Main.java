@@ -44,5 +44,9 @@ public class Main {
         EvenOdd evenOdd = new EvenOdd();
         String answer = evenOdd.solution(5);
         System.out.println("answer = " + answer);
+
+        ArrayAverage arrayAverage = new ArrayAverage();
+        double numbersAverage = arrayAverage.solution(numbers);
+        System.out.println("numbersAverage = " + numbersAverage);
     }
 }
