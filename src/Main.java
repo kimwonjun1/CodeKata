@@ -56,5 +56,9 @@ public class Main {
         DivisorsSum divisorsSum = new DivisorsSum();
         int divisorsSumSolution = divisorsSum.solution(12);
         System.out.println("divisorsSumSolution = " + divisorsSumSolution);
+
+        RemainderOne remainderOne = new RemainderOne();
+        int remainderOneSolution = remainderOne.solution(10);
+        System.out.println("remainderOneSolution = " + remainderOneSolution);
     }
 }
