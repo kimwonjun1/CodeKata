@@ -52,5 +52,9 @@ public class Main {
         DigitsSum digitsSum = new DigitsSum();
         int digitsSumSolution = digitsSum.solution(123);
         System.out.println("digitsSumSolution = " + digitsSumSolution);
+
+        DivisorsSum divisorsSum = new DivisorsSum();
+        int divisorsSumSolution = divisorsSum.solution(12);
+        System.out.println("divisorsSumSolution = " + divisorsSumSolution);
     }
 }
