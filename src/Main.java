@@ -48,5 +48,9 @@ public class Main {
         ArrayAverage arrayAverage = new ArrayAverage();
         double numbersAverage = arrayAverage.solution(numbers);
         System.out.println("numbersAverage = " + numbersAverage);
+
+        DigitsSum digitsSum = new DigitsSum();
+        int digitsSumSolution = digitsSum.solution(123);
+        System.out.println("digitsSumSolution = " + digitsSumSolution);
     }
 }
