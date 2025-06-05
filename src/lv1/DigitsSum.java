@@ -1,3 +1,5 @@
+package lv1;
+
 import java.util.*;
 public class DigitsSum {
     public int solution(int n) {

@@ -1,3 +1,5 @@
+package lv1;
+
 public class ArrAverage {
     public double solution(int[] numbers) {
         double answer = 0;

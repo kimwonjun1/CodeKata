@@ -1,3 +1,5 @@
+package lv1;
+
 public class Protractor {
     public int solution(int angle) {
         int answer = 0;

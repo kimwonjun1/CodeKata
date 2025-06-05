@@ -1,3 +1,5 @@
+package lv1;
+
 public class Age {
     public int solution(int age) {
         int birthYear = 0;

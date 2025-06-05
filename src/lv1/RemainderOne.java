@@ -1,3 +1,5 @@
+package lv1;
+
 public class RemainderOne {
     public int solution(int n) {
         int answer = 0;

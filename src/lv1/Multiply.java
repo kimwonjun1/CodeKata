@@ -1,3 +1,5 @@
+package lv1;
+
 public class Multiply {
         public int solution(int num1, int num2) {
             int answer = 0;

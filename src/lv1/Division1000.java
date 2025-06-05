@@ -1,3 +1,5 @@
+package lv1;
+
 public class Division1000 {
     public int solution(int num1, int num2) {
         double answer = 0;

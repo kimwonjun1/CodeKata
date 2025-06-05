@@ -1,3 +1,7 @@
+import lv1.*;
+
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         Subtraction subtraction = new Subtraction();
@@ -60,5 +64,13 @@ public class Main {
         RemainderOne remainderOne = new RemainderOne();
         int remainderOneSolution = remainderOne.solution(10);
         System.out.println("remainderOneSolution = " + remainderOneSolution);
+
+        Xinterval xinterval = new Xinterval();
+        long[] XintervalSolution = xinterval.solution(2, 5);
+        System.out.println("XintervalSolution = " + Arrays.toString(XintervalSolution));
+
+        NumberReverseToArray numberReverseToArray = new NumberReverseToArray();
+        int[] NumberReverseToArraySolution = numberReverseToArray.solution(12345);
+        System.out.println("NumberReverseToArraySolution = " + Arrays.toString(NumberReverseToArraySolution));
     }
 }
