@@ -72,5 +72,9 @@ public class Main {
         NumberReverseToArray numberReverseToArray = new NumberReverseToArray();
         int[] NumberReverseToArraySolution = numberReverseToArray.solution(12345);
         System.out.println("NumberReverseToArraySolution = " + Arrays.toString(NumberReverseToArraySolution));
+
+        StringToNumber stringToNumber = new StringToNumber();
+        int stringToNumberSolution = stringToNumber.solution("-1234");
+        System.out.println("stringToNumberSolution = " + stringToNumberSolution);
     }
 }
