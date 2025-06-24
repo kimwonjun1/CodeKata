@@ -76,5 +76,10 @@ public class Main {
         StringToNumber stringToNumber = new StringToNumber();
         int stringToNumberSolution = stringToNumber.solution("-1234");
         System.out.println("stringToNumberSolution = " + stringToNumberSolution);
+
+        NumberDiscriminationSquareRoot numberDiscriminationSquareRoot = new NumberDiscriminationSquareRoot();
+        long numberDiscriminationSquareRootSolution = numberDiscriminationSquareRoot.solution(121);
+        System.out.println(
+            "numberDiscriminationSquareRootSolution = " + numberDiscriminationSquareRootSolution);
     }
 }
